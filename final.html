@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+
+<head>
+  
+<title>Bootstrap grid testing</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+      <header>
+   <div style="background-color: lightslategray;height: 50px;width: 100%;">
+    <img src="images/movielogo.jpg" style="float:left;width:42px;height:42px;">&nbsp;<span style="font-size: x-large;font-style: bold;">Movie Cruiser</span> 
+    <div style="float:right;margin-right: 50px;"><a href="customer.html" style="text-decoration: none;color: black;">Movie List</a></div>
+    </div>
+
+</header>
+<br>
+<div id="div1" >
+<style>
+    #div1{
+animation : color 8s infinite;
+height: 300px;
+width: 100%;}
+@keyframes color {
+    
+    0% {
+      background-image:url(images/movie1.jpg);
+    }
+    50%{
+        background-image:url(images/movie2.jpg);
+    }
+    100% {
+        background-image:url(images/movie3.jpg);
+    }
+  }
+ 
+
+  </style>
+  <center>
+<br><br><br><br>
+<input type="text" placeholder="Search your Movie"><br><br>
+<input type="button" value="Search"></center>
+</div>
+
+
+
+
+<br>
+<h1 style="color:lightslategray;">Movies</h1><br>
+<div class="row">
+    <div class="col-lg-3" class="card" style="width: 10rem;">
+        <img class="card-img-top" src="images/mirzapur.jpg" alt="Avengers" style="height: 280px;width: 320px;">
+        <div class="card-body">
+          <h5 class="card-title">Mirzapur</h5>
+          <span style="float: right;">Active</span>
+          <p class="card-text">Action</p>
+          <p class="card-text">
+            Launch Date:20/01/2020
+        </p>
+          <a href="edit.html"><img src="images/edit.jpg" style="height: 80px;width: 150px; float:left;"></a><input type="checkbox">&nbsp;Favourite
+          
+        </div>
+      </div>
+      <div class="col-lg-3" class="card" style="width: 10rem;">
+        <img class="card-img-top" src="images/extraction.jpg" alt="Welcome" style="height: 280px;width: 320px;">
+        <div class="card-body">
+          <h5 class="card-title">Extraction</h5>
+          <span style="float: right;">Active</span>
+          <p class="card-text">Acton</p>
+          <p class="card-text">
+            Launch Date:20/01/2015
+        </p>
+          <a href="edit.html"><img src="images/edit.jpg" style="height: 80px;width: 150px; float:left;"></a><input type="checkbox">&nbsp;Favourite
+          
+        </div>
+      </div>
+      <div class="col-lg-3" class="card" style="width: 10rem;">
+        <img class="card-img-top" src="images/joker.jpg" alt="jumanji" style="height: 280px;width: 320px;">
+        <div class="card-body">
+          <h5 class="card-title">Joker</h5>
+          <span style="float: right;">Active</span>
+          <p class="card-text">Thriller</p>
+          <p class="card-text">
+            Launch Date:11/05/2017
+        </p>
+          <a href="edit.html"><img src="images/edit.jpg" style="height: 80px;width: 150px; float:left;"></a><input type="checkbox">&nbsp;Favourite
+          
+        </div>
+      </div>
+      <div class="col-lg-3" class="card" style="width: 10rem;">
+        <img class="card-img-top" src="images/asur.jpg" alt="notebook" style="height: 280px;width: 320px;">
+        <div class="card-body">
+          <h5 class="card-title">Asur</h5>
+          <span style="float: right;">Active</span>
+          <p class="card-text">Thriller</p>
+          <p class="card-text">
+              Launch Date:07/03/2013
+          </p>
+          <a href="edit.html"><img src="images/edit.jpg" style="height: 80px;width: 150px; float:left;"></a><input type="checkbox">&nbsp;Favourite
+          
+        </div>
+      </div>
+      
+</div>
+<footer>
+    <br>
+    <div style="background-color: lightslategray;height: 50px;width: 100%;">
+        <span style="font-size:large;font-style: italic;">Created by: Shivam Singh
+        </span> 
+        
+        </div>
+</footer>
+
+   </div>
+  </body>
+  </html>
